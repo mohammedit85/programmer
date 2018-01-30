@@ -1,0 +1,5 @@
+import cv2
+import numpy as np
+import matplotlib as mtp
+img = cv2.imread('m1.jpg',0)
+cv2.imshow('image',img)
